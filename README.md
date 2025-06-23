@@ -85,7 +85,7 @@ Encapsulates:
 
 ---
 
-## 🔁 Data/Process Flow Summary
+### 🔁 Data/Process Flow Summary
 
 ```plaintext
 Smart Product
@@ -105,9 +105,10 @@ Smart Product
   [4] ← Service Monitor ← Field Device (Industrial Plant)
    │
   [9] → Process Invocation → Plant Execution
+```
+---
 
-
-> “Good architecture enables change with minimal pain.”
+## “Good architecture enables change with minimal pain.”
 
 Software architecture defines the high-level structure of a system, focusing on:
 
