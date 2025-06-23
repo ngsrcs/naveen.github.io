@@ -19,7 +19,93 @@ My core areas of expertise include:
 
 ## 🏗️ Software Architecture: Designing for Change
 
-![Software Architecture Diagram](assets/software-architecture-diagram.png)
+# 🏗️ Semantic-Based Service Orchestration Architecture (C4 Model Style)
+
+This system enables smart service orchestration in an industrial setting using semantic technologies and context-aware mechanisms.
+
+## System Context
+
+- **Industrial Plant**: Provides field devices capable of offering services.
+- **Smart Product**: Contains abstract process descriptions.
+- **Context Broker**: Supplies environmental/contextual information.
+
+---
+
+## 📦 Containers
+
+### 1. Smart Product
+- **Purpose**: Provides high-level abstract process descriptions.
+- **Output**: Triggers the orchestration process.
+- **Sends To**: Process Decomposition.
+
+### 2. Service Middleware
+Encapsulates:
+- Service Registration
+- Service Discovery and Selection
+- Service Orchestration
+
+---
+
+## 🧩 Components (within Middleware)
+
+### 🧷 Service Registration
+- **Field Device with μC** registers its service using OWL-S/WSDL.
+- **Service Monitor (a)**: Monitors device state/services.
+- **Repository Manager (b)**: Registers services into the Semantic Repository.
+- **Semantic Service Repository (c)**: Stores semantically described services.
+
+**Flow:**
+- a: Device → Service Monitor
+- b: Service Monitor → Repository Manager
+- c: Repository Manager → Semantic Repository
+
+---
+
+### 🔎 Service Discovery and Selection
+**Managed by Discovery Manager**
+
+- **Matchmaker (Core)**:
+  - Queries repository.
+  - Matches services to abstract processes.
+- **Ontology Manager (5)**:
+  - Maintains ontology structure for semantic alignment.
+- **Context-based Rating (6)**:
+  - Rates matches based on context (received from Context Broker (7)).
+
+---
+
+### 🔄 Service Orchestration
+
+1. **Process Decomposition**:
+   - Breaks down abstract process from Smart Product.
+2. **Process Orchestration**:
+   - Aligns decomposed processes to discovered services.
+3. **Process Invocation (9)**:
+   - Executes the matched physical service in the plant.
+
+---
+
+## 🔁 Data/Process Flow Summary
+
+```plaintext
+Smart Product
+   │
+  [1] → Process Decomposition
+   │
+  [2] → Process Orchestration
+   │
+  [8] → Discovery Manager (Matchmaker)
+   │
+  [6] ← Context-based Rating ← Context Broker [7]
+   │
+  [5] ← Ontology Manager (Semantic Matching)
+   │
+  [3] ← Semantic Repository (via Repository Manager [b])
+   │
+  [4] ← Service Monitor ← Field Device (Industrial Plant)
+   │
+  [9] → Process Invocation → Plant Execution
+
 
 > “Good architecture enables change with minimal pain.”
 
