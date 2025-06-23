@@ -186,7 +186,7 @@ Expect future posts on:
 - 🛠️ Refactoring legacy systems  
 - ☁️ Cloud-native transformation strategies  
 
-> 🔗 **Follow me on [LinkedIn](https://www.linkedin.com/in/naveenganesh)** | 💬 **Reach out for consulting/training/collaboration**
+> 🔗 **Follow me on [LinkedIn](www.linkedin.com/in/naveen-ganesh-08b14419)** | 💬 **Reach out for consulting/training/collaboration**
 
 ---
 
