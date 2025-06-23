@@ -19,7 +19,7 @@ My core areas of expertise include:
 
 ## 🏗️ Software Architecture: Designing for Change
 
-# 🏗️ Semantic-Based Service Orchestration Architecture (C4 Model Style)
+## 🏗️ Semantic-Based Service Orchestration Architecture (C4 Model Style)
 
 This system enables smart service orchestration in an industrial setting using semantic technologies and context-aware mechanisms.
 
