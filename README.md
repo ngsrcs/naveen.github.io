@@ -16,7 +16,11 @@ My core areas of expertise include:
 - 📊 **Data Abstraction**
 
 ---
-[Watch the video](assets/test.mp4)
+<video src="https://github.com/ngsrcs/naveen.github.io/blob/main/assets/test.mp4"
+       width="640" controls>
+  Your browser doesn't support HTML5 video.
+</video>
+
 
 ## 🏗️ Software Architecture: Designing for Change
 
