@@ -16,7 +16,7 @@ My core areas of expertise include:
 - 📊 **Data Abstraction**
 
 ---
-<video src="https://github.com/ngsrcs/naveen.github.io/blob/main/assets/test.mp4"
+<video src=(assets/test.mp4)
        width="640" controls>
   Your browser doesn't support HTML5 video.
 </video>
