@@ -16,6 +16,7 @@ My core areas of expertise include:
 - 📊 **Data Abstraction**
 
 ---
+[Watch the video](assets/test.mp4)
 
 ## 🏗️ Software Architecture: Designing for Change
 
