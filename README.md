@@ -2,7 +2,7 @@
 
 ![Banner Image](assets/banner-software-architecture.jpg)
 
-> *Naveen Ganesh – Software Architect | 16+ Years of Experience*
+> *Naveen Ganesh – Software Architect | Design for future*
 
 ---
 
@@ -195,7 +195,7 @@ Expect future posts on:
 
 ---
 
-> *Naveen Ganesh | Software Architect | 16+ Years in Scalable System Design*
+> *Naveen Ganesh | Software Architect | 16+ Years in Scalable System Design | nav.vtl@gmail.com | +91 9980 352 489*
 
 ---
 
