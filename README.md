@@ -19,6 +19,16 @@ My core areas of expertise include:
 
 ## 🏗️ Software Architecture: Designing for Change
 
+- **Embrace Modularity**: Design systems with independent, interchangeable modules to simplify updates and enhance flexibility.
+
+- **Apply Architectural Principles**: Use guidelines like SOLID to ensure systems are maintainable and adaptable for future changes.
+
+- **Use Design Patterns**: Implement established solutions for common problems to enhance code reusability and developer communication.
+
+- **Implement Microservices Architecture**: Structure systems as independent, scalable services to increase resilience and technology flexibility.
+
+- **Foster a DevOps Culture**: Promote rapid, reliable delivery and system stability with continuous integration, automated testing, and effective version control.
+
 ## 🏗️ Semantic-Based Service Orchestration Architecture (C4 Model Style)
 
 This system enables smart service orchestration in an industrial setting using semantic technologies and context-aware mechanisms.
